@@ -1,0 +1,31 @@
+
+
+@media only screen and (max-width: 770px) {
+    .t-raper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .phone {
+        flex-grow: 1;
+        padding: 13.5px 0px 12.5px 0px;
+        border-left: none;
+        margin: auto;
+    }
+
+    .email {
+        flex-grow: 2;
+        padding: 13.5px 0px 12.5px 0px;
+        border-left: none;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .nav li {
+        margin: 7px;
+    }
+}
