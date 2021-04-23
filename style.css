@@ -33,14 +33,15 @@ h6 {
     margin: auto;
 
 }
-.t-raper{
+
+.t-raper {
     display: flex;
 }
 
 .phone {
-        flex-grow: 1;
-        padding: 13.5px 0px 12.5px 3px;
-        border-left: 1px solid #e4e4e4;
+    flex-grow: 1;
+    padding: 13.5px 0px 12.5px 3px;
+    border-left: 1px solid #e4e4e4;
 }
 
 .email {
@@ -89,31 +90,36 @@ h6 {
     background-color: #FFFFFF;
     overflow: hidden;
 }
-.m-raoer{
+
+.m-raoer {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
 }
+
 .nav {
     display: flex;
 }
-.nav li{
+
+.nav li {
     margin: 17px;
     list-style: none;
 }
-.nav li a{
+
+.nav li a {
     color: #000;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     font-family: 'Oswald',
-    sans-serif;
+        sans-serif;
     letter-spacing: .08em;
 
 }
-.nav li a:hover{
+
+.nav li a:hover {
     color: #ff5200;
-  
+
 }
 
 
@@ -127,7 +133,7 @@ header::after {
 section.bac-3 {
     background: url(img/slide-1.jpg);
     background-size: cover;
-    background-position: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     overflow: hidden;
@@ -140,6 +146,8 @@ section.bac-3 {
     padding-top: 150px;
     font-size: 50px;
     line-height: 58px;
+    width: 78%;
+    letter-spacing: .9px;
 }
 
 .slid-cn p {
@@ -152,12 +160,12 @@ section.bac-3 {
 .but {
     background-color: #ff5200;
     color: white;
-    padding: 15PX 25PX;
+    padding: 15PX 25px;
     font-weight: 600;
     font-size: 16PX;
-    border-radius: 3PX;
+    border-radius: 3px;
     border: none;
-    margin-bottom: 120PX;
+    margin-bottom: 120px;
     margin-top: 10px;
 }
 
@@ -193,6 +201,9 @@ section.bac-3 {
 }
 
 /* service */
+.oadd{
+    display: flex;
+}
 .totle {
     padding: 40px 20px;
     text-align: center;
@@ -226,15 +237,14 @@ section.bac-3 {
     text-transform: uppercase !important;
     font-weight: 500 !important;
     letter-spacing: 0.02em;
-    width: 179px;
     display: block;
     margin-bottom: 20px;
+    font-size: 21px;
 }
 
 .totle p {
     font-size: 16px;
     line-height: 1.5;
-    width: 210px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -292,11 +302,15 @@ section.bac-3 {
 .worke {
     background-color: #ffffff;
 }
+.work-team{
+    display: flex;
+    justify-content: space-around;
+}
 
 .worke-img {
-    width: 550px;
-    float: left;
-    margin: 90px 0;
+    width: 100vw;
+    margin: 90px 60px 90px 0px;
+    flex: 50;
 }
 
 .worke-img img {
@@ -305,9 +319,8 @@ section.bac-3 {
 }
 
 .worke-con {
-    width: 550px;
-    float: right;
     margin: 90px 0 0 0;
+    flex: 50;
 }
 
 .worke-con h1 {
@@ -333,16 +346,18 @@ section.bac-3 {
     text-align: left;
     margin-bottom: 30px;
 }
+.ul-repar{
+    display: flex;
+}
 
 .worke-con li {
-    position: relative;
-    float: left;
-    width: 50%;
     font-size: 16px;
     line-height: 22px;
     color: #443939;
     font-weight: 500;
     margin-bottom: 20px;
+    list-style: none;
+    margin-right: 26px;
 }
 
 .worke-con li:hover {
@@ -378,6 +393,10 @@ section.bac-3 {
     background-position: center center;
     background-size: cover;
 
+}
+.omg{
+    display: flex;
+    flex-direction: row;
 }
 
 .omg i {
@@ -457,11 +476,15 @@ section.bac-3 {
 
 
 }
+.from-us-wrap{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.from-img{
+    width: 20vw;
+}
 
 .from-us .bottom {
-    max-width: 22%;
-    float: left;
-    padding-right: 34px;
     margin-top: 50px;
     margin-bottom: 90px
 }
