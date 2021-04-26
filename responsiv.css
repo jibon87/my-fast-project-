@@ -85,7 +85,44 @@
     .bottom h3 {
         text-align: center;
     }
-    
+    /* leates idea */
+    .idea-img {
+        width: 50vw;
+        height: 104vh;
+    }
+    .idea-con {
+        width: 100%;
+    }
+    .idea-img {
+        display: none;
+    }
+    /* our trem */
+    .gg {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .gg .img-cin .img-raper img {
+        width: 42vw;
+    }
+    /* our best projcet */
+    .img-con {
+        grid-template-columns: auto auto;
+    }
+    .best-project .img-con .com .conn h2 {
+        font-size: 15px;
+    }
+    /* contuc from */
+    .mraper {
+        flex-direction: column;
+    }
+    .singleboxx {
+        margin: auto;
+    }
+    /* footer area */
+    .footer-refer {
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
 }
 
 
@@ -160,6 +197,50 @@
     .bottom h3 {
         font-size: 15.7px;
     }
+    /* leates idea */
+    .idea-img {
+        width: 50vw;
+        height: 207vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* our best project */
+    .best-project .img-con .com .conn {
+        padding-bottom: 0px;
+        padding-left: 9px;
+        width: 99%;
+    }
+    .best-project .img-con .com .conn h2 {
+        font-size: 16px;
+    }
+    .best-project .img-con .com:hover a {
+        margin-bottom: 18px;
+    }
+    .best-project .img-con .com:hover h2 {
+        margin-bottom: 18px;
+    }
+    /* pooter area */
+    .footerSbox {
+        width: 165px;
+    }
+    .footerSbox .dates-info ul {
+        flex-direction: column;
+    }
+    .footerSbox .dates .f {
+        margin: 0px 0px 73px 0px;
+    }
+    .copy{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .copy-low p {
+        text-align: center;
+        padding: 5px;
+    }
+    .copy-loww ul {
+        justify-content:center;
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -198,5 +279,28 @@
     }
     .bottom h3 {
         font-size: 20.7px;
+    }
+    /* latest idea */
+    .idea-con2 {
+        padding: 10px;
+    }
+    /* our trem */
+    .gg {
+        grid-template-columns: auto;
+    }
+    .gg .img-cin .img-raper img {
+        width: 85vw;
+    }
+    /* our best project */
+    .img-con {
+        grid-template-columns: auto;
+    }
+    /* footer area */
+    .footer-refer {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .footerSbox {
+        margin: 17px 10px;
     }
 }

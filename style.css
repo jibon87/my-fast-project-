@@ -201,9 +201,10 @@ section.bac-3 {
 }
 
 /* service */
-.oadd{
+.oadd {
     display: flex;
 }
+
 .totle {
     padding: 40px 20px;
     text-align: center;
@@ -302,7 +303,8 @@ section.bac-3 {
 .worke {
     background-color: #ffffff;
 }
-.work-team{
+
+.work-team {
     display: flex;
     justify-content: space-around;
 }
@@ -346,7 +348,8 @@ section.bac-3 {
     text-align: left;
     margin-bottom: 30px;
 }
-.ul-repar{
+
+.ul-repar {
     display: flex;
 }
 
@@ -394,7 +397,8 @@ section.bac-3 {
     background-size: cover;
 
 }
-.omg{
+
+.omg {
     display: flex;
     flex-direction: row;
 }
@@ -467,7 +471,7 @@ section.bac-3 {
 
 .top>p {
     font-size: 16px;
-    margin-top: 10px;
+    margin: 10px 0px 40px 0px;
     font-family: 'Work Sans',
         sans-serif;
     color: #656565;
@@ -476,11 +480,13 @@ section.bac-3 {
 
 
 }
-.from-us-wrap{
+
+.from-us-wrap {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.from-img{
+
+.from-img {
     width: 20vw;
 }
 
@@ -532,13 +538,18 @@ section.bac-3 {
     border-radius: 6px;
 }
 
+.price-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .price-con {
     box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     border: 1px solid #eee;
-    width: 27%;
-    float: left;
-    margin: 0 15.04px;
+    margin: 5px 15.04px;
     padding: 20px;
     border-radius: 6px;
 }
@@ -577,7 +588,7 @@ section.bac-3 {
     float: none;
     margin-bottom: 12px;
     color: #57647c;
-
+    list-style: none;
 }
 
 .price-con ul li i {
@@ -616,7 +627,7 @@ section.bac-3 {
     left: 0px;
     top: 0px;
     width: 50%;
-    height: 134%;
+    height: 205%;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -713,8 +724,9 @@ section.bac-3 {
 
 /* MEET OUR TEAM */
 .gg {
-    width: 100%;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 8px;
 }
 
 .gg::after {
@@ -723,15 +735,9 @@ section.bac-3 {
     clear: both;
 }
 
-.gg .img-cin {
-    width: 22%;
-    float: left;
-    padding-left: 30px;
-    cursor: pointer;
-}
 
 .gg .img-cin .img-raper img {
-    width: 100%;
+    width: 20.6vw;
     vertical-align: middle;
 }
 
@@ -865,22 +871,16 @@ section.bac-3 {
 }
 
 .img-con {
-    overflow: hidden;
-    column-count: 3;
-    margin-top: 50px;
-    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding-bottom: 115px;
 }
 
-.best-project .img-con .com {
-    width: 340px;
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 33px;
-
-}
 
 .best-project .img-con .com img {
-    width: 100%;
+    width: 102%;
+    vertical-align: middle;
 }
 
 .best-project .img-con .com {
@@ -939,9 +939,10 @@ section.bac-3 {
 
 .best-project .img-con .com .conn {
     background: linear-gradient(to top, #333337, transparent);
-    padding-bottom: 30px;
+    padding-bottom: 12px;
     padding-left: 20px;
     overflow: hidden;
+    width: 97%;
 }
 
 .best-project .img-con .com:hover a {
@@ -960,19 +961,16 @@ section.bac-3 {
 section.latest-news {
     overflow: hidden;
 }
+.l-s-nRaper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .l-s-nRaper .singlebox {
-    width: 31%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 150px;
+    margin: 6px 10px 40px 10px;
 }
-
-.l-s-nRaper .singlebox:first-child {
-    margin-left: 0px;
-}
-
 .l-s-nRaper .singlebox img {
     width: 100%;
     transition: .3s;
@@ -980,6 +978,7 @@ section.latest-news {
 }
 
 .l-s-nRaper .singlebox .n-img {
+    width: 285px;
     overflow: hidden;
 }
 
@@ -1015,7 +1014,8 @@ section.latest-news {
 
 .con-r {
     border: 1px solid #E7E7E7;
-    padding: 25px;
+    padding: 11px;
+    width: 261px;
 }
 
 .singlebox .con-r h2 {
@@ -1067,6 +1067,9 @@ section.latest-news {
     margin-bottom: -73px;
     overflow: hidden;
     border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .mraper::after {
@@ -1076,9 +1079,8 @@ section.latest-news {
 }
 
 .singleboxx {
-    width: 29%;
-    float: left;
-    padding-left: 40px;
+    width: 251px;
+    padding: 0px 0px 0px 22px;
     padding-bottom: 35px;
 }
 
@@ -1099,11 +1101,9 @@ section.latest-news {
 }
 
 .singleboxx input:first-child {
-    position: absolute;
     border: none;
-    padding: 15px 30px 15px 24px;
-    ;
-    font-size: 15px;
+    padding: 15px 0px 16px 20px;
+    font-size: 12px;
     font-family: 'Work Sans',
         sans-serif;
     border-radius: 100px;
@@ -1113,13 +1113,13 @@ section.latest-news {
 
 .singleboxx input:last-child {
     position: absolute;
-    right: 42px;
+    right: 36px;
     border: none;
-    padding: 15px 33px;
+    padding: 16px 25px;
     background: #000;
     color: #fff;
     border-radius: 100px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     overflow: hidden;
     outline: none;
@@ -1171,21 +1171,21 @@ footer::after {
     display: block;
     clear: both;
 }
+.footer-refer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    justify-content: space-around;
+}
 
 .footerSbox {
-    width: 263px;
-    margin-left: 29px;
-    float: left;
+    width: 223px;
     overflow: hidden;
+    margin: 50px 10px;
 }
-
-.footerSbox:first-child {
-    margin-left: 0px;
-}
-
 .top-top {
     overflow: hidden;
-    padding: 150px 0 50px 0;
+    padding: 100px 0 50px 0;
 }
 
 .bot-bot {
@@ -1223,30 +1223,34 @@ footer::after {
 .doo li :hover>i {
     color: #ff4800;
 }
+.copy{
+    display: flex;
+    justify-content: space-between;
+}
 
-.copy-low span {
+.copy-low p {
     color: #ababab;
     font-size: 15px;
     font-family: 'Work Sans',
         sans-serif;
     line-height: 1.5;
-    float: left;
-    width: 50%;
-    padding: 25px;
+    padding: 12px;
 }
 
-.copy-low ul {
-    float: right;
+.copy-loww ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.copy-low a {
+.copy-loww a {
     color: #ababab;
     font-size: 15px;
     font-family: 'Work Sans',
         sans-serif;
     line-height: 1.5;
     text-decoration: none;
-    padding: 25px;
+    padding: 13px;
     display: block;
 }
 
@@ -1351,6 +1355,10 @@ footer::after {
 .dates-con {
     overflow: hidden;
     padding-bottom: 11px;
+}
+.footerSbox .dates-info ul{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footerSbox .dates-info li {
